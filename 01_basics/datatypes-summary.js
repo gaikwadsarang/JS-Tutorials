@@ -27,5 +27,33 @@ const myFunction= function() {
     console.log("hello World");
 }
 
-console.log(typeof heroes);
+// console.log(typeof heroes);
+
+// Memory
+// Stack(Primitive), Heap(non-primitive)
+
+let myYoutubename = "sarangGaikwad"
+let anotherName = myYoutubename
+anotherName = "djBravo"
+
+// console.log(myYoutubename);
+
+// console.log(anotherName);
+
+let userOne = {
+    email: "123@gmail.com",
+    upi: "userh@ybl"
+}
+
+let usertwo = userOne
+
+usertwo.email = "user@gmail.com"
+
+console.log(userOne.email);
+console.log(usertwo.email);
+
+
+
+
+
 
