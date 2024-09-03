@@ -31,14 +31,29 @@ const obj3 = {...obj1, ...obj2}
 
 const users= []
 
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
 
+const course = {
+    coursename: "js",
+    price: "000",
+    teacher: "bravo"
+}
+
+// course.teacher
+
+const {teacher} = course
+
+// console.log(teacher);
+
+{
+    
+}
 
 
 
