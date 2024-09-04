@@ -35,4 +35,35 @@ return
 }
 
 // console.log(loginUserMessage("sarang"))
-console.log(loginUserMessage())
+// console.log(loginUserMessage())
+
+function calculateCartPrice(...num1) { // Rest operator
+return num1
+}
+
+// console.log(calculateCartPrice(200, 400, 500, 2000));
+
+
+const user = {
+    username: "sarang",
+    price: 99
+}
+
+function handelObject(anyobject) {
+    console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
+}
+
+// handelObject(user)
+handelObject({
+    username: "sam",
+    price: 299
+})
+
+const myNewArray = [200, 300, 400, 600]
+
+function returnSecondVAlue(getArray) {
+    return getArray[1]
+}
+
+// console.log(returnSecondVAlue(myNewArray));
+console.log(returnSecondVAlue([200, 300, 400, 600]));
